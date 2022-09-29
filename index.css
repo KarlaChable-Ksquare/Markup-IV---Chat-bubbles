@@ -93,5 +93,6 @@ img.lu-img {
 
 div > img.check {
   padding-left: 15px;
-  filter: contrast(200%);
+  filter: grayscale(100%);
+  opacity: 0.3;
 }
