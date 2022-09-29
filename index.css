@@ -14,6 +14,7 @@ body.body {
 }
 
 main.bubble {
+  padding: 20px;
   background-color: rgba(128, 128, 128, 0.05);
   backdrop-filter: blur(10px);
   display: flex;
@@ -66,6 +67,7 @@ div.right-down > div.rd-div {
   padding: 8px;
   line-height: 25px;
   font-weight: bold;
+  color: rgb(70, 70, 70);
 }
 
 div.lu-time,
@@ -78,6 +80,11 @@ div.rd-time {
   justify-content: flex-end;
 }
 
+div.lu-time *,
+div.rd-time * {
+  color: gray;
+}
+
 img.lu-img {
   height: 75px;
   border-radius: 50%;
@@ -86,4 +93,5 @@ img.lu-img {
 
 div > img.check {
   padding-left: 15px;
+  filter: contrast(200%);
 }
